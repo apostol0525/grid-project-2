@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+
+body {
+ margin: 0;
+ padding: 0;
+ display: grid;
+ place-items: center;
+ font-family: "Figtree", sans-serif;
+ background-color: #F4D04E;
+ min-height: 100vh;
+}
+
+
+.yellow__card {
+  
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px;
+  margin: auto;
+  width: 100%;
+  max-width: 340px;
+  box-shadow: 8px 8px 0px #000000;
+  border: 1px solid #000000;
+}
+
+.yellow__card__content {
+  width: 100%;
+  max-width: 335px;
+}
+
+
+.yellow__btn {
+  display: inline-block;
+ text-decoration: none;
+ align-content: center;
+ color: #000000;
+ background-color: #F4D04E;
+ width: 90px;
+ height: 32px;
+ margin-top: 22px;
+ border-radius: 5px;
+ font-weight: 700;
+ font-size: 15px;
+ text-align: center;
+ transition: 0.3s;
+}
+
+
+.yellow__btn:hover {
+ text-decoration: underline 1px;
+ opacity: 1;
+}
+
+.date__published {
+  font-weight: 500;
+  font-size: medium;
+  padding: 12px 0 0 0;
+  margin: 0;
+}
+
+.card__name {
+  font-size: 25px;
+  font-weight: 800;
+  transition: 0.3s;
+}
+
+.card__name:hover {
+  color: #F4D04E;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.card__description {
+  color: #6b6b6b;
+  line-height: 150%;
+}
+
+.yellow__img {
+  width: 100%;
+}
+
+.yellow__card__footer {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+.author__img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;/*растягивает обьект на всю доступную ширину и высоту*/
+  object-position: center;/*указывает как должен распологаться обьект*/
+  border-radius: 50%;
+  
+}
+
+
+.author {
+  font-weight: 700;
+}
+
+@media (max-width:450px)  {
+  .yellow__card {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+
+
+
+
+@media(max-width:375px) {
+  .yellow__card {
+    width: 100%;
+   max-width: 325px;
+   box-sizing: border-box;
+  }
+
+  .yellow__card__content {
+  width: 100%;
+  max-width: 290px;
+}
+
+  .card__name {
+  font-size: 22px;
+  font-weight: 800;
+  transition: 0.3s;
+}
+
+.card__description {
+  line-height: 150%;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+}
+
